@@ -186,7 +186,7 @@
 //! * `codegen` - Enables the `#[system]` procedural macro. Enabled by default.
 
 // implementation modules
-mod internals;
+pub mod internals;
 
 // public API organized into logical modules
 pub mod query;
